@@ -11,13 +11,18 @@ const ElevatorPitch = () => {
         </h2>
         <div className="relative max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl group">
           <div className="aspect-video bg-gray-100 dark:bg-gray-700 relative">
-            {/* Replace the src attribute with your video URL */}
             <video
               className="w-full h-full object-cover"
               controls
               poster="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80"
             >
-              <source src="/path-to-your-video.mp4" type="video/mp4" />
+              <source src="../../public/Divine-elevator-pitch-video.mp4" type="video/mp4" />
+              <track
+                src="../../public/captions.vtt"
+                kind="captions"
+                srcLang="en"
+                label="English"
+              />
               Your browser does not support the video tag.
             </video>
             <div className="absolute inset-0 bg-black bg-opacity-40 opacity-100 group-hover:opacity-0 transition-opacity duration-300 flex items-center justify-center">

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import Typed from 'typed.js';
 import { ChevronDown, Sparkles, Rocket, Heart } from 'lucide-react';
+import Typed from 'typed.js';
 
 const Hero = () => {
   const el = useRef(null);
@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="absolute -inset-1 bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative aspect-square rounded-full overflow-hidden shadow-xl transform transition duration-300 group-hover:scale-105">
             <img
-              src="https://raw.githubusercontent.com/enock-niyonsaba/Divine-Portfolio/main/Divine_Portfolio_-removebg-preview.png"
+              src="../../public/Divine.png"
               alt="NGUTETE Divine"
               className="object-cover w-full h-full rounded-full transform transition duration-500 group-hover:rotate-3"
             />
