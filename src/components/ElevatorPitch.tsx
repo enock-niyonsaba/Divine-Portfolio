@@ -9,26 +9,21 @@ const ElevatorPitch = () => {
           <Video className="animate-pulse text-blue-500" />
           Elevator Pitch
         </h2>
-        <div className="relative max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl group">
+        <div className="relative max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
           <div className="aspect-video bg-gray-100 dark:bg-gray-700 relative">
-            <video
-              className="w-full h-full object-cover"
-              controls
-              poster="https://www.istockphoto.com/photo/professional-presentation-by-black-businesswoman-gm2167644051-587699001?auto=format&fit=crop&q=80"
-            >
-              <source src="https://znl60kvsawkkhq5d.public.blob.vercel-storage.com/Divine-elevator-pitch-video-3HUEmr6WSknQdjtplNdf8587jvC7jn.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <div className="absolute inset-0 bg-black bg-opacity-40 opacity-100 group-hover:opacity-0 transition-opacity duration-300 flex items-center justify-center">
-              <div className="transform transition-transform duration-300 group-hover:scale-110 flex flex-col items-center gap-4">
-                <Play className="w-16 h-16 text-white" />
-                <p className="text-white text-xl font-semibold">Watch My Pitch</p>
-              </div>
-            </div>
+            {/* Replace the YouTube video ID with your actual video ID */}
+            <iframe
+              className="w-full h-full absolute inset-0"
+              src="https://znl60kvsawkkhq5d.public.blob.vercel-storage.com/Divine-elevator-pitch-video-3HUEmr6WSknQdjtplNdf8587jvC7jn.mp4"
+              title="Divine NGUTETE - Elevator Pitch"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black to-transparent text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-            <h3 className="text-xl font-semibold mb-2">About My Journey</h3>
-            <p className="text-gray-200">
+          <div className="p-6 bg-white dark:bg-gray-800 border-t dark:border-gray-700">
+            <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">About My Journey</h3>
+            <p className="text-gray-600 dark:text-gray-300">
               Learn about my passion for data science, my journey, and how I aim to make a difference in the world through technology and health innovation.
             </p>
           </div>
