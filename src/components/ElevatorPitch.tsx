@@ -16,13 +16,7 @@ const ElevatorPitch = () => {
               controls
               poster="https://www.istockphoto.com/photo/professional-presentation-by-black-businesswoman-gm2167644051-587699001?auto=format&fit=crop&q=80"
             >
-              <source src="../../public/Divine-elevator-pitch-video.mp4" type="video/mp4" />
-              <track
-                src="../../public/captions.vtt"
-                kind="captions"
-                srcLang="en"
-                label="English"
-              />
+              <source src="https://github.com/enock-niyonsaba/Divine-Portfolio/blob/main/public/Divine-elevator-pitch-video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <div className="absolute inset-0 bg-black bg-opacity-40 opacity-100 group-hover:opacity-0 transition-opacity duration-300 flex items-center justify-center">
