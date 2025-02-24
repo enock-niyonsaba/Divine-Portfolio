@@ -14,7 +14,7 @@ const ElevatorPitch = () => {
             <video
               className="w-full h-full object-cover"
               controls
-              poster="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80"
+              poster="https://www.istockphoto.com/photo/professional-presentation-by-black-businesswoman-gm2167644051-587699001?auto=format&fit=crop&q=80"
             >
               <source src="../../public/Divine-elevator-pitch-video.mp4" type="video/mp4" />
               <track
